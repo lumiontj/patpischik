@@ -1,0 +1,20 @@
+Uri: https://cdn-icons-png.freepik.com/256/15707/15707869.png?semt=ais_hybrid
+File Name: C:\Downloaded Web Sites\Новая папка\xzinsta.netlify.app\256\15707\15707869-1.png
+Content Type: image/png
+
+Uri: https://xzinsta.netlify.app/form.html
+File Name: C:\Downloaded Web Sites\Новая папка\xzinsta.netlify.app\form.html
+Content Type: text/html
+
+Uri: https://xzinsta.netlify.app/script.js
+File Name: C:\Downloaded Web Sites\Новая папка\xzinsta.netlify.app\script.js
+Content Type: application/javascript
+
+Uri: https://xzinsta.netlify.app/style.css
+File Name: C:\Downloaded Web Sites\Новая папка\xzinsta.netlify.app\style.css
+Content Type: text/css
+
+i: https://xzinsta.netlify.app/test.js
+File Name: C:\Downloaded Web Sites\Новая папка\xzinsta.netlify.app\test.js
+Content Type: application/javascript
+

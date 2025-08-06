@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fafafa; /* Светлый фон, как у Instagram */
+    color: #333; /* Тёмный текст */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    max-width: 300px; /* Сделаем контейнер шире */
+    background: #fff; /* Белый фон для контейнера */
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Лёгкая тень, как в Instagram */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #262626; /* Тёмный цвет текста */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #888; /* Более светлый текст для описания */
+}
+
+button {
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #0095f6; /* Основной синий цвет Instagram */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #006db6; /* Темно-синий цвет при наведении */
+}
+
+button:active {
+    transform: scale(1);
+}
+
+#clickCount {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #0095f6; /* Синий цвет Instagram для счётчика */
+}
+
+#submitBtn {
+    background: #4CAF50; /* Зеленый, как в Instagram для отправки */
+    transition: all 0.3s ease;
+}
+
+#submitBtn:hover {
+    background: #45a049; /* Темно-зеленый оттенок при наведении */
+}
+
+img {
+    width: 50px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    transition: all 0.3s ease;
+}
+
+button:hover img {
+    filter: brightness(1) invert(0);
+}

@@ -1,0 +1,108 @@
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.form-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #833ab4;
+  box-shadow: 0 0 5px rgba(131, 58, 180, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #fd1d1d, #833ab4);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(131, 58, 180, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(131, 58, 180, 0.1);
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  body{
+    height: 100vh;
+  }
+  .form-container {
+
+    max-width: 290px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
+p{
+  color: #000;
+}
